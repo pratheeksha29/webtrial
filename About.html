@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="web.css" rel="stylesheet">
+</head>
+<body>  
+  <header>
+        
+    <div class="menu" data-aos="fade-up">
+     
+      <ul class="topnav" id="myTopnav">
+      <li class="menu1"><a href="Home.html" class="active">Home</a></li>  
+      <li class="menu1"><a href="#" class="active">about</a></li>   
+      <li class="menu1"><a href="Contact.html" class="active">contact</a></li>  
+      <li class="menu1"><a href="/Resume.pdf" download class="button">Resume&#11123;</a></li>
+   <!----   <li class="menu1"><a href="#" class="active" data-bs-toggle="modal" data-bs-target="#Loginform"> SIGN-UP/Log-In</a></li>-->
+      <a style="color:black;" href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </ul> 
+   
+    </div>
+</header>
+<div class="bg-image"></div>
+
+<div class="bg-text"  >
+  <div class="row" data-aos="flip-right">
+    <div class="col-sm-12">
+      <p class="intro" >
+        <h2>Hello!</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque voluptatum eaque ducimus alias provident? Ipsam facilis error laudantium nam aperiam, nemo laboriosam autem tempora nihil iusto voluptatem perferendis voluptate vel!
+        </p>
+        <a href="" class="button">Learn more</a>
+      </p>  
+    </div>
+  </div>
+</div>
+<!--modal for Sign-up--
+<div class="modal fade" id="Signupform" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Sign-Up</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form name="google-sheet" method="post">
+        
+          <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Name" name="Name">
+          </div>
+          <div class="mb-3">
+              <input type="email" class="form-control" placeholder="Email" name="Email">
+  
+          </div>
+          <div class="mb-3">
+              <input type="text" class="form-control" placeholder="Number" name="Number">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Password" name="Password">
+          </div>
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="confirm Password" name="CPassword">
+          </div>
+          <div class="modal-footer">
+            <input type=button onClick="location='Home.html'" class="btn btn-primary" value='Submit'>
+          </div>
+      </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--Modal Log-in----
+<div class="modal fade" id="Loginform" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mb-3">
+          <input type="email" class="form-control" placeholder="Email" name="Email">
+      </div>
+      <div class="mb-3">
+        <input type="text" class="form-control" placeholder="Password" name="Password">
+      </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary"data-bs-toggle="modal" data-bs-target="#Signupform">Sign-up</button>
+        <input type=button onClick="location='Home.html'" class="btn btn-primary" value='Submit'>
+      </div>
+    </div>
+  </div>
+</div>-->
+
+
+
+
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+ <script src="https://kit.fontawesome.com/b3777c8fb1.js" crossorigin="anonymous"></script>
+ <script type="text/javascript" src="web.js">
+ 
+</script>
+</body>
+</html>
+  
